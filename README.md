@@ -20,7 +20,7 @@ python3 -m http.server 8000
 
 ## Personalização
 
-- **WhatsApp**: os links usam `https://wa.me/55...` com os números (98) 98451-1449 e (98) 99952-7295. Troque o número e a mensagem pré-preenchida direto nos atributos `href` do `index.html`.
+- **WhatsApp**: os links usam `https://wa.me/556984511449` (número (69) 8451-1449). Troque o número e a mensagem pré-preenchida direto nos atributos `href` do `index.html`.
 - **Logo**: atualmente é um badge "JS" em CSS (`.logo-badge`). Para usar a logo real, adicione o arquivo de imagem em uma pasta `img/` e troque o `<span class="logo-badge">JS</span>` por uma tag `<img>`.
 - **Endereço/mapa**: o mapa embutido usa o endereço "Av. Amizael Gomes da Silva, 5327" via Google Maps embed público (sem necessidade de API key).
 - **Produtos**: cada card em `#produtos` já tem um link de WhatsApp com mensagem pré-preenchida específica do produto.
