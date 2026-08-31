@@ -1,7 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Carvão">
-  <path d="M14 42c-3-4-1-11 6-12 1-6 8-9 13-5 5-4 14-1 14 7 5 1 8 8 3 13-3 3-30 2-36-3Z" fill="#2b2b2b"/>
-  <path d="M20 33c1-4 5-6 9-5" stroke="#5a5a5a" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
-  <path d="M36 32c3-2 7-1 9 2" stroke="#5a5a5a" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
-  <circle cx="24" cy="40" r="2" fill="#ff8a3d"/>
-  <circle cx="34" cy="43" r="1.4" fill="#ff8a3d" opacity="0.8"/>
+  <defs>
+    <linearGradient id="coalBag" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c99a5b"/>
+      <stop offset="100%" stop-color="#a97a3f"/>
+    </linearGradient>
+  </defs>
+  <path d="M20 12h24l3 6h-30Z" fill="#8a622f"/>
+  <path d="M17 18h30l4 34c.4 3.8-2.5 7-6.3 7H19.3c-3.8 0-6.7-3.2-6.3-7Z" fill="url(#coalBag)"/>
+  <rect x="19" y="27" width="26" height="14" rx="2" fill="#f4ead9" opacity="0.9"/>
+  <circle cx="26" cy="34" r="3.4" fill="#2b2b2b"/>
+  <circle cx="33" cy="34" r="3.4" fill="#2b2b2b"/>
+  <circle cx="40" cy="34" r="3.4" fill="#2b2b2b"/>
 </svg>

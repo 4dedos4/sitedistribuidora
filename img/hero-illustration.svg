@@ -1,47 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Carrinho de entrega levando água e gás">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" role="img" aria-label="Entregador da JS Distribuidora levando galão de água">
   <defs>
-    <linearGradient id="heroOrange" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ff8a3d"/>
-      <stop offset="100%" stop-color="#ff6a00"/>
-    </linearGradient>
-    <radialGradient id="heroGlow" cx="50%" cy="45%" r="60%">
+    <radialGradient id="heroGlow" cx="50%" cy="42%" r="60%">
       <stop offset="0%" stop-color="#ff6a00" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#ff6a00" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="jugBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ec4ff"/>
+      <stop offset="100%" stop-color="#0d84e0"/>
+    </linearGradient>
   </defs>
 
-  <ellipse cx="210" cy="160" rx="200" ry="160" fill="url(#heroGlow)"/>
-  <ellipse cx="210" cy="262" rx="130" ry="14" fill="#000000" opacity="0.32"/>
+  <ellipse cx="160" cy="180" rx="180" ry="150" fill="url(#heroGlow)"/>
+  <ellipse cx="160" cy="330" rx="110" ry="14" fill="#000000" opacity="0.3"/>
 
-  <!-- hand truck frame -->
+  <!-- water jug -->
+  <g transform="translate(24 150)">
+    <rect x="0" y="26" width="72" height="98" rx="18" fill="url(#jugBlue)"/>
+    <rect x="18" y="4" width="36" height="26" rx="8" fill="#ffffff"/>
+    <rect x="24" y="0" width="24" height="10" rx="4" fill="#e7edf2"/>
+    <rect x="10" y="58" width="52" height="30" rx="6" fill="#ffffff" opacity="0.9"/>
+    <circle cx="36" cy="73" r="10" fill="#5ec4ff"/>
+  </g>
+
+  <!-- character -->
   <g>
-    <rect x="70" y="70" width="14" height="168" rx="6" fill="#2b2f36"/>
-    <rect x="70" y="224" width="140" height="14" rx="6" fill="#2b2f36"/>
-    <circle cx="90" cy="252" r="20" fill="#20242a"/>
-    <circle cx="90" cy="252" r="7" fill="#8a929b"/>
-    <circle cx="190" cy="252" r="20" fill="#20242a"/>
-    <circle cx="190" cy="252" r="7" fill="#8a929b"/>
-    <rect x="60" y="60" width="34" height="12" rx="6" fill="#2b2f36"/>
+    <!-- legs -->
+    <rect x="132" y="228" width="26" height="72" rx="10" fill="#26324a"/>
+    <rect x="166" y="228" width="26" height="72" rx="10" fill="#1c2740"/>
+    <ellipse cx="145" cy="304" rx="18" ry="9" fill="#111826"/>
+    <ellipse cx="179" cy="304" rx="18" ry="9" fill="#111826"/>
+
+    <!-- back arm holding jug -->
+    <path d="M140 145c-24 6-40 24-44 48" stroke="#ff8a3d" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="94" cy="197" r="12" fill="#f2b389"/>
+
+    <!-- torso -->
+    <path d="M118 130c0-16 12-26 30-26s30 10 30 26v96c0 10-8 18-18 18h-24c-10 0-18-8-18-18Z" fill="#ff6a00"/>
+    <path d="M132 106c6 8 18 8 24 0l-6 14h-12Z" fill="#ffffff" opacity="0.85"/>
+    <rect x="112" y="150" width="72" height="16" fill="#e85d04"/>
+
+    <!-- front arm -->
+    <path d="M178 140c16 8 26 24 24 46" stroke="#ff6a00" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <circle cx="204" cy="188" r="12" fill="#f2b389"/>
+
+    <!-- head -->
+    <circle cx="148" cy="82" r="30" fill="#f2b389"/>
+    <path d="M118 78a30 30 0 0 1 60 0c-10-6-50-6-60 0Z" fill="#ff6a00"/>
+    <path d="M116 74c8-14 68-14 64 4-14-8-50-8-64-4Z" fill="#e85d04"/>
+    <circle cx="138" cy="86" r="3.4" fill="#2a2a2a"/>
+    <circle cx="160" cy="86" r="3.4" fill="#2a2a2a"/>
+    <path d="M137 98c6 6 16 6 22 0" stroke="#a15d34" stroke-width="3" fill="none" stroke-linecap="round"/>
   </g>
 
   <!-- delivery box -->
-  <g>
-    <rect x="260" y="150" width="90" height="82" rx="10" fill="url(#heroOrange)"/>
-    <rect x="260" y="150" width="90" height="18" rx="9" fill="#ffb547"/>
-    <text x="305" y="207" font-family="'Bebas Neue', sans-serif" font-size="26" fill="#ffffff" text-anchor="middle">JS</text>
-  </g>
-
-  <!-- gas cylinder -->
-  <g transform="translate(96 118)">
-    <rect x="0" y="16" width="52" height="106" rx="13" fill="#3d434b"/>
-    <rect x="0" y="52" width="52" height="14" fill="#ff6a00"/>
-    <rect x="15" y="0" width="22" height="18" rx="4" fill="#8a929b"/>
-  </g>
-
-  <!-- water bottle -->
-  <g transform="translate(160 150)">
-    <rect x="0" y="18" width="30" height="74" rx="9" fill="#2aa8ff"/>
-    <rect x="8" y="2" width="14" height="18" rx="3" fill="#0d84e0"/>
-    <rect x="5" y="46" width="20" height="28" rx="3" fill="#ffffff" opacity="0.85"/>
+  <g transform="translate(226 168)">
+    <rect x="0" y="0" width="76" height="68" rx="9" fill="#ff8a3d"/>
+    <rect x="0" y="0" width="76" height="16" rx="8" fill="#ffb547"/>
+    <text x="38" y="48" font-family="'Bebas Neue', sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">JS</text>
   </g>
 </svg>
