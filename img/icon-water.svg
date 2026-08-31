@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Água mineral">
+  <defs>
+    <linearGradient id="waterFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ec4ff"/>
+      <stop offset="100%" stop-color="#0d84e0"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 6C24 20 13 32.5 13 43a19 19 0 0 0 38 0C51 32.5 40 20 32 6Z" fill="url(#waterFill)"/>
+  <path d="M22 40c0 6.5 4.6 11.5 10 12-7.5-2-9-8.5-9-14 0-4 1.6-8 3.5-11.3-3.5 5-4.5 9.5-4.5 13.3Z" fill="#ffffff" opacity="0.55"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Carrinho de entrega levando água e gás">
+  <defs>
+    <linearGradient id="heroOrange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8a3d"/>
+      <stop offset="100%" stop-color="#ff6a00"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ff6a00" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff6a00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="210" cy="160" rx="200" ry="160" fill="url(#heroGlow)"/>
+  <ellipse cx="210" cy="262" rx="130" ry="14" fill="#000000" opacity="0.32"/>
+
+  <!-- hand truck frame -->
+  <g>
+    <rect x="70" y="70" width="14" height="168" rx="6" fill="#2b2f36"/>
+    <rect x="70" y="224" width="140" height="14" rx="6" fill="#2b2f36"/>
+    <circle cx="90" cy="252" r="20" fill="#20242a"/>
+    <circle cx="90" cy="252" r="7" fill="#8a929b"/>
+    <circle cx="190" cy="252" r="20" fill="#20242a"/>
+    <circle cx="190" cy="252" r="7" fill="#8a929b"/>
+    <rect x="60" y="60" width="34" height="12" rx="6" fill="#2b2f36"/>
+  </g>
+
+  <!-- delivery box -->
+  <g>
+    <rect x="260" y="150" width="90" height="82" rx="10" fill="url(#heroOrange)"/>
+    <rect x="260" y="150" width="90" height="18" rx="9" fill="#ffb547"/>
+    <text x="305" y="207" font-family="'Bebas Neue', sans-serif" font-size="26" fill="#ffffff" text-anchor="middle">JS</text>
+  </g>
+
+  <!-- gas cylinder -->
+  <g transform="translate(96 118)">
+    <rect x="0" y="16" width="52" height="106" rx="13" fill="#3d434b"/>
+    <rect x="0" y="52" width="52" height="14" fill="#ff6a00"/>
+    <rect x="15" y="0" width="22" height="18" rx="4" fill="#8a929b"/>
+  </g>
+
+  <!-- water bottle -->
+  <g transform="translate(160 150)">
+    <rect x="0" y="18" width="30" height="74" rx="9" fill="#2aa8ff"/>
+    <rect x="8" y="2" width="14" height="18" rx="3" fill="#0d84e0"/>
+    <rect x="5" y="46" width="20" height="28" rx="3" fill="#ffffff" opacity="0.85"/>
+  </g>
+</svg>
