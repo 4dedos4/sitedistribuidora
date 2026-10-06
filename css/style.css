@@ -243,22 +243,33 @@ p { margin: 0 0 16px; color: var(--gray-600); }
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 72%);
 }
 .hero-card {
-  background: var(--white);
-  border-radius: var(--radius);
-  padding: 26px;
   width: 100%;
-  max-width: 320px;
-  box-shadow: var(--shadow);
+  max-width: 400px;
   display: grid;
-  gap: 12px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 .hero-card-row {
-  background: var(--gray-100);
-  border-radius: 10px;
-  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 11px 14px;
   font-weight: 600;
-  color: var(--dark);
-  font-size: 0.98rem;
+  color: var(--white);
+  font-size: 0.84rem;
+  white-space: nowrap;
+}
+.hero-card-row img { width: 20px; height: 20px; flex: none; }
+.hero-card-row-wide {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 60%;
+  justify-content: center;
 }
 
 /* Strip */
