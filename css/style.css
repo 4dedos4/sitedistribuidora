@@ -206,10 +206,17 @@ p { margin: 0 0 16px; color: var(--gray-600); }
   align-items: center;
   gap: 18px;
 }
-.hero-illustration {
+.mascot-frame {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 18px;
   width: 100%;
-  max-width: 360px;
-  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.35));
+  max-width: 300px;
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.35);
+}
+.mascot-img {
+  width: 100%;
+  display: block;
 }
 .hero-card {
   background: var(--white);
